@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.heading{
+    font-size: 30px;
+   margin-bottom: 40px;
+   background-color: rgb(245, 86, 86);
+   padding: 10px;
+   border-radius: 10px;
+}
+.drop-area {
+    width: 90vw;
+    height: 70vh;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.drop-area p {
+    margin: 0;
+    font-size: 30px;
+    color: #555;
+}
+
+.drop-area.active {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
